@@ -1,0 +1,35 @@
+.container {
+  grid: auto / 100%;
+}
+body {
+  background-color: rgb(27, 25, 25);
+}
+
+.wrapper {
+  position: relative;
+  max-width: 100vh;
+  height: 100%;
+  margin: auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  top: 50px;
+}
+.content-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#text-box {
+  width: 500px;
+  height: 40px;
+  font-family: sans-serif;
+}
+
+#results {
+  margin-top: 10rem;
+  width: 500px;
+  height: 100px;
+  background-color: white;
+}
